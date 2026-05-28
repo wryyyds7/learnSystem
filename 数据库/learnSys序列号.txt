@@ -1,0 +1,108 @@
+---------------------------------------------------------
+-- Export file for user LEARNSYS                       --
+-- Created by Administrator on 2019/2/25 –«∆⁄“ª, 13:24:28 --
+---------------------------------------------------------
+
+spool learnSys–Ú¡–∫≈.log
+
+prompt
+prompt Creating sequence SEQ_TB_TOPIC
+prompt ==============================
+prompt
+create sequence LEARNSYS.SEQ_TB_TOPIC
+minvalue 1
+maxvalue 9999999999999999999999999999
+start with 202
+increment by 1
+cache 20;
+
+prompt
+prompt Creating sequence SEQ_TB_USER
+prompt =============================
+prompt
+create sequence LEARNSYS.SEQ_TB_USER
+minvalue 1
+maxvalue 9999999999999999999999999999
+start with 63
+increment by 1
+cache 20;
+
+prompt
+prompt Creating sequence SEQ_T_CHOSE
+prompt =============================
+prompt
+create sequence LEARNSYS.SEQ_T_CHOSE
+minvalue 1
+maxvalue 9999999999999999999999999999
+start with 1
+increment by 1
+cache 20;
+
+prompt
+prompt Creating sequence SEQ_T_EXAM_INFO
+prompt =================================
+prompt
+create sequence LEARNSYS.SEQ_T_EXAM_INFO
+minvalue 1
+maxvalue 9999999999999999999999999999
+start with 1
+increment by 1
+cache 20;
+
+prompt
+prompt Creating sequence SEQ_T_PAPER_INFO
+prompt ==================================
+prompt
+create sequence LEARNSYS.SEQ_T_PAPER_INFO
+minvalue 1
+maxvalue 9999999999999999999999999999
+start with 21
+increment by 1
+cache 20;
+
+prompt
+prompt Creating sequence SEQ_T_PAPER_QUESTION
+prompt ======================================
+prompt
+create sequence LEARNSYS.SEQ_T_PAPER_QUESTION
+minvalue 1
+maxvalue 9999999999999999999999999999
+start with 1
+increment by 1
+cache 20;
+
+prompt
+prompt Creating sequence SEQ_T_QUESTIONS
+prompt =================================
+prompt
+create sequence LEARNSYS.SEQ_T_QUESTIONS
+minvalue 1
+maxvalue 9999999999999999999999999999
+start with 220
+increment by 1
+cache 20;
+
+prompt
+prompt Creating sequence SEQ_T_SCORE
+prompt =============================
+prompt
+create sequence LEARNSYS.SEQ_T_SCORE
+minvalue 1
+maxvalue 9999999999999999999999999999
+start with 1
+increment by 1
+cache 20;
+
+prompt
+prompt Creating sequence SEQ_T_TYPE
+prompt ============================
+prompt
+create sequence LEARNSYS.SEQ_T_TYPE
+minvalue 1
+maxvalue 9999999999999999999999999999
+start with 1
+increment by 1
+cache 20;
+
+
+spool off
